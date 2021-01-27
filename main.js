@@ -11,19 +11,13 @@ let redP3 = document.querySelectorAll('.redPurple')[0];
 console.log(redP3);
 
 // 4
-let list = document.querySelectorAll('li');
+let list = document.querySelectorAll('li, p, span');
 console.log(list);
 
-let para = document.querySelectorAll('p');
-console.log(para);
-
-let span = document.querySelectorAll('span');
-console.log(span);
-
 // 5
-let important = document.querySelectorAll('.important');
+let important = document.querySelectorAll('li.important, p');
 console.log(important);
 
 // 6
-let last = document.querySelectorAll('.redPurple');
+let last = document.querySelectorAll('h1.redPurple, span.redPurple');
 console.log(last);
